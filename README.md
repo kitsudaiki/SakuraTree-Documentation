@@ -1,2 +1,9 @@
 # Sakura-Project-Documentation
-Documentation of the Sakura-Project with its core-component SakuraTree (https://github.com/tobiasanker/SakuraTree)
+
+Latest Version: https://gitlab.com/tobiasanker/Sakura-Project-Documentation/builds/artifacts/master/browse?job=build
+
+Build latex-document:
+
+```
+make latexpdf 
+```
