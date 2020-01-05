@@ -120,7 +120,7 @@ These repositories will be downloaded automatically by the build script of the t
       - https://github.com/tobiasanker/libKitsunemimiJson.git 
 
     * - libKitsunemimiJinja2
-      - v0.6.1
+      - v0.6.2
       - https://github.com/tobiasanker/libKitsunemimiJinja2.git 
 
     * - libKitsunemimiIni
