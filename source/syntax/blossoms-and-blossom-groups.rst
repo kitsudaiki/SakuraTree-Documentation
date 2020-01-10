@@ -7,14 +7,17 @@ Because the tool *SakuraTree* is a reference for trees with cherry blossoms, the
 
 ::
 
-    ini_file("get value from a test-ini-file")
+    - test_input = "poi"
+    - test_output = "{{}}"
+
+    ini_file("get value from a test-ini-file and writ into file: {{test_input}}")
     - file_path = "/tmp/test_file"
     - group = "DEFAULT"
     - entry = "asdf"
     -> read:
         - blossom_output >> test_output
     -> set:
-        - value = "123456789"
+        - value = test_input
 
 
 The whole construct has up to 5 different parts:
@@ -27,13 +30,13 @@ The whole construct has up to 5 different parts:
 
         <BLOSSOM_GROUP_TYPE_NAME> ( <IDENTIFIER_STRING_FOR_DEBUG_OUTPUT> )
 
-    The first is the definition of the blossom-group. *<BLOSSOM_GROUP_TYPE_NAME>* identifies the type, which has to be selected from the predefined set. In the example it is *ini_file* in order to read and change INI files. Within the following "( ... )" an identifier string is required, which is printed in log output for easier debugging.
+    The first is the definition of the blossom-group. *<BLOSSOM_GROUP_TYPE_NAME>* identifies the type, which has to be selected from the predefined set. In the example it is *ini_file* in order to read and change INI files. Within the following "( ... )" an identifier string is required, which is printed in log output for easier debugging. This string is handled as jinja2-string. That way the name can be filled with additional internal information (see available jinja2 rules in the string-value section). As input for the jinja2-string all within the file global accessable items or counter value-items of a loop can be used. Thats make the output more unique especially for blossom-groups within loop. 
 
     Example:
 
     ::
 
-        ini_file("get value from a test-ini-file")
+        ini_file("get value from a test-ini-file and writ into file: {{test_input}}")
 
 
 * **Blossom-group input**
@@ -78,7 +81,7 @@ The whole construct has up to 5 different parts:
 
     ::
 
-        - value = "123456789"
+        - value = test_input
 
 
 * **Blossom output**
