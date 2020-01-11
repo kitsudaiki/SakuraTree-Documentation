@@ -52,6 +52,47 @@ Output:
     no output
 
 
+``item_update``
+---------------
+
+Update already existing items within the current file. Within the blossom you can assign an item a totally different value or other item or you can change items by calling functions and assign the result of the function.
+
+**Example**:
+
+::
+
+    - test_output = "test"
+    - test_map = { "test": ["poi1", "poi2"]}
+    
+    item_update("test-update")
+    - test_map = test_map.insert("asdf2", test_map)
+    - test_output = "test2"
+    
+    print("test-output")
+    - test_output = test_output
+    - size = test_map.size()
+    - content = test_map.get("asdf2")
+
+
+**Input**:
+
+.. tabularcolumns:: |m{0.4\textwidth}|m{0.15\textwidth}|m{0.38\textwidth}|
+
+.. list-table::
+    :header-rows: 1
+
+    * - **Name**
+      - **Type**
+      - **Description**
+
+    * - (any item-name, of the items which should be changed or overwritten)
+      - any data type
+      - value, item or item with function-call, which should be assigned as new item-content
+
+**Output**:
+
+    no output
+
 
 ``assert``
 ----------
