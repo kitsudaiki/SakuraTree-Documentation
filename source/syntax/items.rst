@@ -97,32 +97,28 @@ The following assignment types are supported:
         - is_true = true
 
 
-* assign arrays
+* assign arrays and maps
 
-    **Syntax**
+    **example Syntax**
 
     ::
 
-        - <ITEM> = [ <VALUE> , <VALUE> , ... ]
+        - <ITEM> = { <VALUE> : [ <VALUE> , ...],  { <VALUE> :  ... }
 
-    Arrays can also directly be assigned in this form. 
+        - <ITEM> = [ <VALUE> , [ <VALUE> , ... ], ... ]
 
+    Similar to array, also complete map in json-style are possible to assign to an item. 
 
     **Restrictions**
 
-    The values in the array, which is assigned in this form, must be value-items. The support to allow any data-item within the array, when assigning like this, is still missing in the parser (update to be expected with version 0.3.0)
+    References to other items are not allowed in this definition. Only hardcoded int-values, float-values and string-values can be used. To add other existing items to an array-item or a map-item, used the *append* or *insert* functions (see later section).
 
     **Example**
 
     ::
 
-        - packages = [ "nano", "vim" ]
-
-
-* assign maps
-
-    From the list of possible data-items, only value-items or array-items can be directly set in this form. The support for maps in json-style is still missing in the parser (update to be expected with version 0.3.0)
-
+        - test_array = [ "nano", "vim" ]
+        - test_map = { "test": ["poi1", "poi2"]}
 
 
 .. raw:: latex

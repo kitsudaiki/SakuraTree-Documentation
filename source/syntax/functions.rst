@@ -176,6 +176,62 @@ Add a new item to an existing list.
       - any data-item
 
 
+
+``insert``
+^^^^^^^^^^
+
+Add a new key-item-pair to an already existing map-item.
+
+
+**Example**:
+
+::
+
+    - test_map = { "test": ["poi1", "poi2"]}
+
+    print("test-output")
+    - content = test_map.insert("asdf", test_map).get("asdf")
+
+**Arguments**:
+
+.. tabularcolumns:: |m{0.1\textwidth}|m{0.3\textwidth}|m{0.53\textwidth}|
+
+.. list-table::
+    :header-rows: 1
+
+    * - **Position**
+      - **Type**
+      - **Content**
+
+    * - 1
+      - string-value
+      - key for the new item within the map
+
+    * - 2
+      - any data-item
+      - new object, which should be added to the existing array
+
+
+**Output Type**:
+
+    no output
+
+**Input Item**:
+
+.. tabularcolumns:: |m{0.1\textwidth}|m{0.3\textwidth}|m{0.53\textwidth}|
+
+.. list-table::
+    :header-rows: 1
+
+    * - **Item Type**
+      - **Argument 1**
+      - **Argument 2**
+
+    * - map-item
+      - string-value
+      - any data-item
+
+
 ``split``
 ^^^^^^^^^
 
