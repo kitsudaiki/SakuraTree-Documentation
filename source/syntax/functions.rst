@@ -145,7 +145,7 @@ Add a new item to an existing list.
 
 **Arguments**:
 
-.. tabularcolumns:: |m{0.1\textwidth}|m{0.3\textwidth}|m{0.53\textwidth}|
+.. tabularcolumns:: |m{0.1\textwidth}|m{0.2\textwidth}|m{0.63\textwidth}|
 
 .. list-table::
     :header-rows: 1
@@ -160,21 +160,22 @@ Add a new item to an existing list.
 
 **Output Type**:
 
-    no output
+    array-item
 
 **Input Item**:
 
-.. tabularcolumns:: |m{0.29\textwidth}|m{0.66\textwidth}|
+.. tabularcolumns:: |m{0.29\textwidth}|m{0.23\textwidth}|m{0.40\textwidth}|
 
 .. list-table::
     :header-rows: 1
 
     * - **Item Type**
       - **Argument**
+      - **Output Content**
 
     * - array-item
       - any data-item
-
+      - updated array-item with the new appended data-item
 
 
 ``insert``
@@ -194,7 +195,7 @@ Add a new key-item-pair to an already existing map-item.
 
 **Arguments**:
 
-.. tabularcolumns:: |m{0.1\textwidth}|m{0.3\textwidth}|m{0.53\textwidth}|
+.. tabularcolumns:: |m{0.1\textwidth}|m{0.2\textwidth}|m{0.63\textwidth}|
 
 .. list-table::
     :header-rows: 1
@@ -214,11 +215,11 @@ Add a new key-item-pair to an already existing map-item.
 
 **Output Type**:
 
-    no output
+    map-item
 
 **Input Item**:
 
-.. tabularcolumns:: |m{0.1\textwidth}|m{0.3\textwidth}|m{0.53\textwidth}|
+.. tabularcolumns:: |m{0.1\textwidth}|m{0.2\textwidth}|m{0.2\textwidth}|m{0.40\textwidth}|
 
 .. list-table::
     :header-rows: 1
@@ -226,10 +227,12 @@ Add a new key-item-pair to an already existing map-item.
     * - **Item Type**
       - **Argument 1**
       - **Argument 2**
+      - **Output Content**
 
     * - map-item
       - string-value
       - any data-item
+      - updated map-item with the new iserted key-value-pair
 
 
 ``split``
@@ -249,7 +252,7 @@ Split a string-value into an array-item which contains the split content.
 
 **Arguments**:
 
-.. tabularcolumns:: |m{0.1\textwidth}|m{0.3\textwidth}|m{0.53\textwidth}|
+.. tabularcolumns:: |m{0.1\textwidth}|m{0.2\textwidth}|m{0.63\textwidth}|
 
 .. list-table::
     :header-rows: 1
@@ -262,6 +265,12 @@ Split a string-value into an array-item which contains the split content.
       - string-value
       - Only a string of one single character to identify the position, where to split. If the string is longer, only the first character of the string is used. A special case is the line break, which consist of the characters "\n".
 
+
+.. raw:: latex
+
+    \newpage
+    
+    
 **Output Type**:
 
     array-item
@@ -301,7 +310,7 @@ Get an element of an array or of a map.
 
 **Arguments**:
 
-.. tabularcolumns:: |m{0.1\textwidth}|m{0.3\textwidth}|m{0.53\textwidth}|
+.. tabularcolumns:: |m{0.1\textwidth}|m{0.2\textwidth}|m{0.63\textwidth}|
 
 .. list-table::
     :header-rows: 1
@@ -365,7 +374,7 @@ Check if an item contains another specific item.
 
 **Arguments**:
 
-.. tabularcolumns:: |m{0.1\textwidth}|m{0.3\textwidth}|m{0.53\textwidth}|
+.. tabularcolumns:: |m{0.1\textwidth}|m{0.2\textwidth}|m{0.63\textwidth}|
 
 .. list-table::
     :header-rows: 1
