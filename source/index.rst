@@ -10,9 +10,10 @@ Welcome to Sakura-Project's documentation!
    :maxdepth: 3
 
 
-.. include:: introduction.rst
-.. include:: build.rst
-.. include:: syntax.rst
-.. include:: sections.rst
-.. include:: blossoms.rst
-.. include:: cli.rst
+   introduction
+   build
+   syntax
+   sections
+   blossoms
+   cli
+   
