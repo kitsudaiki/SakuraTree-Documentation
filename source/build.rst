@@ -47,12 +47,17 @@ Required Tools
       - 3.0.4
       - Build the parser code together with the lexer code.
 
+    * - xxd
+      - xxd
+      - v1.10
+      - converts text files into source code files
+
 
 Installation on Ubuntu/Debian:
 
 ::
 
-    sudo apt-get install g++ qt5-qmake bison flex
+    sudo apt-get install g++ qt5-qmake bison flex xxd
 
 
 .. raw:: latex
@@ -108,27 +113,39 @@ These repositories will be downloaded automatically by the build script of the t
       - **download-path**
 
     * - libKitsunemimiCommon
-      - v0.9.0
+      - v0.10.1
       - https://github.com/tobiasanker/libKitsunemimiCommon.git 
 
     * - libKitsunemimiPersistence
-      - v0.6.1
+      - v0.7.0
       - https://github.com/tobiasanker/libKitsunemimiPersistence.git 
 
     * - libKitsunemimiJson
-      - v0.9.0
+      - v0.10.0
       - https://github.com/tobiasanker/libKitsunemimiJson.git 
 
     * - libKitsunemimiJinja2
-      - v0.6.2
+      - v0.7.0
       - https://github.com/tobiasanker/libKitsunemimiJinja2.git 
 
     * - libKitsunemimiIni
-      - v0.3.2
+      - v0.4.0
       - https://github.com/tobiasanker/libKitsunemimiIni.git 
 
+    * - libKitsunemimiNetwork
+      - v0.5.3
+      - https://github.com/tobiasanker/libKitsunemimiNetwork.git 
+
+    * - libKitsunemimiProjectNetwork
+      - vmaster
+      - https://github.com/tobiasanker/libKitsunemimiNetwork.git 
+
+    * - libKitsunemimiSakuraNetwork
+      - vmaster
+      - https://github.com/tobiasanker/libKitsunemimiNetwork.git 
+
     * - libKitsunemimiSakuraParser
-      - v0.2.0
+      - master
       - https://github.com/tobiasanker/libKitsunemimiSakuraParser.git 
 
 
