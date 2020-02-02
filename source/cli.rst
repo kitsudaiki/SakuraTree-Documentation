@@ -8,12 +8,12 @@ The tool can be executed with the following command line call:
 
 ::
 
-    SakuraTree --seed-path <FILE_PATH> [--i <ITEM_NAME>=<ITEM_CONTENT>] [--i <ITEM_NAME>=<ITEM_CONTENT>] ...
+    SakuraTree --init-tree <FILE_PATH> [-i <ITEM_NAME>=<ITEM_CONTENT>] [-i <ITEM_NAME>=<ITEM_CONTENT>] ...
 
 
 **Arguments**:
 
-    * ``--seed-path``:
+    * ``--init-tree ``:
 
         * **Description**: Path to the initial tree-file, which should be executed by the tool. 
 

@@ -49,7 +49,7 @@ Required Tools
 
     * - xxd
       - xxd
-      - v1.10
+      - 1.10
       - converts text files into source code files
 
 
@@ -137,12 +137,12 @@ These repositories will be downloaded automatically by the build script of the t
       - https://github.com/tobiasanker/libKitsunemimiNetwork.git 
 
     * - libKitsunemimiProjectNetwork
-      - vmaster
-      - https://github.com/tobiasanker/libKitsunemimiNetwork.git 
+      - master
+      - https://github.com/tobiasanker/libKitsunemimiProjectNetwork.git 
 
     * - libKitsunemimiSakuraNetwork
-      - vmaster
-      - https://github.com/tobiasanker/libKitsunemimiNetwork.git 
+      - master
+      - https://github.com/tobiasanker/libKitsunemimiSakuraNetwork.git 
 
     * - libKitsunemimiSakuraParser
       - master
