@@ -79,23 +79,15 @@ Official Libraries
       - **version**
       - **task**
  
-    * - libboost-program-options-dev
-      - 1.62
-      - Provides the argument parser for the CLI input.
-
     * - libboost-filesystem-dev
       - 1.62
       - Used for file interactions like for example listing files in a directory or check if a path exist.
-
-    * - libsqlite3-dev 
-      - 3.16.2
-      - Provides interaction with SQLite databases. It's a requirement of the used library libKitsunemimiPersistence, but is not used by this project now.
 
 Installation on Ubuntu/Debian:
 
 ::
 
-    sudo apt-get install libboost-program-options-dev libboost-filesystem-dev libsqlite3-dev
+    sudo apt-get install libboost-filesystem-dev
 
 
 Kitsunemimi Libraries
@@ -113,27 +105,31 @@ These repositories will be downloaded automatically by the build script of the t
       - **download-path**
 
     * - libKitsunemimiCommon
-      - v0.10.1
+      - master
       - https://github.com/tobiasanker/libKitsunemimiCommon.git 
 
     * - libKitsunemimiPersistence
-      - v0.7.0
+      - master
       - https://github.com/tobiasanker/libKitsunemimiPersistence.git 
 
+    * - libKitsunemimiArgs
+      - master
+      - https://github.com/tobiasanker/libKitsunemimiArgs.git 
+
     * - libKitsunemimiJson
-      - v0.10.0
+      - master
       - https://github.com/tobiasanker/libKitsunemimiJson.git 
 
     * - libKitsunemimiJinja2
-      - v0.7.0
+      - master
       - https://github.com/tobiasanker/libKitsunemimiJinja2.git 
 
     * - libKitsunemimiIni
-      - v0.4.0
+      - master
       - https://github.com/tobiasanker/libKitsunemimiIni.git 
 
     * - libKitsunemimiNetwork
-      - v0.5.3
+      - master
       - https://github.com/tobiasanker/libKitsunemimiNetwork.git 
 
     * - libKitsunemimiProjectNetwork
