@@ -13,6 +13,7 @@ Prebuild for latest master-version:
 
 https://gitlab.com/tobiasanker/Sakura-Project-Documentation/builds/artifacts/master/browse?job=build
 
+**IMPORTANT**: The master-version of the documentation actually differs from the master of the code, because the code has a bit bigger restructure for the multi-node support.
 
 ## Build 
 
