@@ -8,23 +8,27 @@ The tool can be executed with the following command line call:
 
 ::
 
-    SakuraTree --init-tree <FILE_PATH> [-i <ITEM_NAME>=<ITEM_CONTENT>] [-i <ITEM_NAME>=<ITEM_CONTENT>] ...
+    SakuraTree [--init-tree-id <TREE_ID> ] [-item-input <ITEM_NAME>=<ITEM_CONTENT>] <FILE_OR_DIR_PATH>
 
 
 **Arguments**:
 
-    * ``--init-tree ``:
+    * ``--init-tree-id`` or ``-t``:
 
-        * **Description**: Path to the initial tree-file, which should be executed by the tool. 
+        * **Description**: In case, that the FILE_OR_DIR_PATH is the path of a directory, the init-tree-id has to be set to identify the tree-file, which should be called as first file.
 
-        * **Restriction**: It has to be an absolute path. (update expected with version 0.3.0)
-
-
-    * ``--input`` or ``-i``:
+    * ``--item-input`` or ``-i``:
 
         * **Description**: Key-value pairs to override the initial values inside of the file. This flag can be used multiple times for each item which should be overwritten.
 
         * **Restriction**: The value is internally a string-value. Even when you use *-i value=42* the *42* is internally handled as string-value and NOT as an int-value. (update with version 0.3.0)
+
+
+    * ``<FILE_OR_DIR_PATH>``:
+
+        * **Description**: Path to the initial tree-file, which should be executed by the tool or to the parent directory, where are all relevant tree-files, which should be used. 
+
+        * **Restriction**: It has to be an absolute path. (update expected with version 0.3.0)
 
 
 **Example**
@@ -44,12 +48,11 @@ To execute the test file without further options, it's called like this:
 
 ::
 
-    SakuraTree --seed-path /path/to/test-file/test-file.tree
+    SakuraTree /path/to/test-file/test-file.tree
 
 
 To execute the test file with *asdf* as initial content for the item *test_output*, it can be called like this:
 
 ::
 
-    SakuraTree --seed-path /path/to/test-file/test-file.tree -i test_output=asdf
-
+    SakuraTree -i test_output=asdf /path/to/test-file/test-file.tree
