@@ -8,10 +8,14 @@ The tool can be executed with the following command line call:
 
 ::
 
-    SakuraTree [--init-tree-id <TREE_ID> ] [-item-input <ITEM_NAME>=<ITEM_CONTENT>] <FILE_OR_DIR_PATH>
+    SakuraTree [--debug] [--init-tree-id <TREE_ID> ] [-item-input <ITEM_NAME>=<ITEM_CONTENT>] <FILE_OR_DIR_PATH>
 
 
 **Arguments**:
+
+    * ``--debug`` or ``-d``:
+
+        * **Description**: Enable debug-output.
 
     * ``--init-tree-id`` or ``-t``:
 
