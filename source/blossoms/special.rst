@@ -143,6 +143,7 @@ Run a custom shell command.
 
     cmd("test-command")
     - command = "cat {{test_file}}"
+    - ignore_errors = true
 
 
 **Input**:
@@ -159,16 +160,15 @@ Run a custom shell command.
     * - command
       - string-value
       - Command, which should be executed
+
+    * - ignore_errors 
+      - bool-value
+      - (Optional) Can be set to *true* to ignore the exit value of the called command. (Default: false)
      
 
 **Output**:
 
-    - string-value with the stdout content of the called tool
-
-**Restrictions**
-
-    * stderr content of the called tool is discarded
-
+    - string-value with the stdout/stderr content of the called tool
     
 
 ``exit``
