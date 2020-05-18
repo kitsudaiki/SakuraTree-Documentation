@@ -54,7 +54,7 @@ Delete a file or directory from the disk.
 
     path("delete testfile")
     -> delete:
-       - path = "test_file"
+       - path = "/tmp/test_file"
 
 
 **Input**:
@@ -86,9 +86,10 @@ Rename a file or directory on the disk.
 
 ::
 
-    path("delete testfile")
-    -> delete:
-       - path = "test_file"
+    path("rename testfile")
+    -> rename:
+       - path = "/tmp/test_file"
+       - new_name = "/tmp/new_test_fil"
 
 
 **Input**:
@@ -125,8 +126,8 @@ Rename a file or directory from the disk.
 ::
 
     path("change file-permission")
-    -> delete:
-       - path = "test_file"
+    -> chmod:
+       - path = "/tmp/test_file"
        - permission = 644
 
 
@@ -164,8 +165,8 @@ Change the owner of a file or directory with ``chown``.
 ::
 
     path("change file-owner")
-    -> delete:
-       - path = "test_file"
+    -> chown:
+       - path = "/tmp/test_file"
        - owner = "ubuntu"
 
 
