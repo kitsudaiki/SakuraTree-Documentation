@@ -17,6 +17,8 @@ Copy a file or directory from one location on the disk to another one or copy a 
     -> copy:
        - source_path = "test_file"
        - dest_path = "/tmp/test_file"
+       - owner = "deployer"
+       - mode = 644
 
 
 **Input**:
@@ -37,6 +39,14 @@ Copy a file or directory from one location on the disk to another one or copy a 
     * - dest_path
       - string-value
       - Absolute path to the destination of the file.
+
+    * - owner
+	  - string-value or int-value
+	  - User name or user id to set for the destination file.
+
+    * - mode
+      - int-value
+      - Mode to set for the destination file.
 
 **Output**:
 
