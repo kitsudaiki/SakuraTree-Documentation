@@ -144,6 +144,7 @@ Run a custom shell command.
     cmd("test-command")
     - command = "cat {{test_file}}"
     - ignore_errors = true
+    - trim_output = true
 
 
 **Input**:
@@ -164,6 +165,10 @@ Run a custom shell command.
     * - ignore_errors 
       - bool-value
       - (Optional) Can be set to *true* to ignore the exit value of the called command. (Default: false)
+
+    * - trim_output 
+      - bool-value
+      - (Optional) Can be set to *true* to trim out string-output of the command to erase whitespaces, linebreaks and tabs from the beginning and the end of the string-output. (Default: false)
      
 
 **Output**:
