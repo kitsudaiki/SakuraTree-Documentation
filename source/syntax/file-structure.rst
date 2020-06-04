@@ -18,6 +18,7 @@ The script files are refered to in this document as *tree-files*. The structure 
     -> present:
     - packages = packages
 
+    # loop to print all packages-names
     for(package : packages)
     {
         print("print packages-names")
@@ -74,6 +75,7 @@ Each tree-file consist of the following three parts:
         -> present:
         - packages = packages
 
+        # loop to print all packages-names
         for(package : packages)
         {
             print("print packages-names")

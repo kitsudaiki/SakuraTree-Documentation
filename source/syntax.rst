@@ -21,6 +21,7 @@ A tool for automating processes has its own requirements and limitations and so 
     -> present:
     - packages = packages
 
+    # loop to print all packages-names
     for(package : packages)
     {
         print("print packages-names")
@@ -41,6 +42,7 @@ A tool for automating processes has its own requirements and limitations and so 
 
         print("print init-file-output")
         - first_try = test_output
+    }
 
 
 

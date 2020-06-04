@@ -29,27 +29,32 @@ Required Tools
 
     * - g++
       - g++
-      - 6.3.0
+      - >= 6.0
       - Compiler for the C++ code.
+
+    * - make
+      - make
+      - >= 4.0
+      - Process the make-file, which is created by qmake to build the programm with g++
 
     * - qmake
       - qt5-qmake
-      - 5.7.1
+      - >= 5.0
       - This package provides the tool qmake, which is similar to cmake and create the Makefile for compilation.
 
     * - FLEX
       - flex
-      - 2.6.1
+      - >= 2.6
       - Build the lexer code for all used parsers.
 
     * - GNU Bison
       - bison
-      - 3.0.4
+      - >= 3.0
       - Build the parser code together with the lexer code.
 
     * - xxd
       - xxd
-      - 1.10
+      - >= 1.10
       - converts text files into source code files
 
 
@@ -57,7 +62,7 @@ Installation on Ubuntu/Debian:
 
 ::
 
-    sudo apt-get install g++ qt5-qmake bison flex xxd
+    sudo apt-get install g++ make qt5-qmake bison flex xxd
 
 
 .. raw:: latex
@@ -79,15 +84,19 @@ Official Libraries
       - **version**
       - **task**
  
+    * - libssl-dev
+      - >= 1.1.0
+      - For tls-encrypted data-transfer.
+
     * - libboost-filesystem-dev
-      - 1.62
+      - >= 1.60
       - Used for file interactions like for example listing files in a directory or check if a path exist.
 
 Installation on Ubuntu/Debian:
 
 ::
 
-    sudo apt-get install libboost-filesystem-dev
+    sudo apt-get install libssl-dev libboost-filesystem-dev
 
 
 Kitsunemimi Libraries
