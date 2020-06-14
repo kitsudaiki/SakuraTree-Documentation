@@ -80,12 +80,6 @@ I often encountered things while deploying one or multiple nodes, which could be
 
 Similar to Chef, this tool has a client-server-architecture. But this was not enough. Each SakuraTree process can work as client and/or server. So you can create a hierarchical structure of clients and servers for faster data transfer. For example let's say you have a very big image and want to copy it to each node of a deployment with hundreds of nodes. With the ability to spawn new clients and servers within the deployment, you can copy this to one node, which in turn copies the file to two other nodes and these nodes again copy it to the next four nodes and so on.
 
-**barriers between threads and nodes**
-
-*current state: not implemented now (planned for version 0.3.0)*
-
-When working with many parallel tasks, some interaction between all threads is necessary. For example you have to deploy multiple tools and one central database, which is used by the tools. The tools need the credentials for the database access at a specific point in the rollout. In Chef you can split your deploy process in multiple stages. In my opinion this is too inconvenient. I like using barriers for this instead. Speaking of the example with the database, there should be a barrier defined in all parallel tasks, which use and create the database. So the threads who need the database access for the next steps should wait until the thread, which created the database, has finished the creation. At this point it should send the credentials for the database within the barrier to all threads which need them.
-
 **live-debugging**
 
 *current state: not implemented now (planned for version 0.4.0)*
