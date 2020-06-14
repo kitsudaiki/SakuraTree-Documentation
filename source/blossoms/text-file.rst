@@ -12,7 +12,7 @@ Read the content of a text file and write it into a item.
 
     - test_output = "{{}}"
 
-	text_file("read test-file")
+    text_file("read test-file")
     - file_path = "/tmp/test_template"
     -> read:
        - blossom_output >> test_output
@@ -47,7 +47,7 @@ Create and fill a new text file or replace the whole content of an existing text
 
 ::
 
-	text_file("write into a text-file")
+    text_file("write into a text-file")
     - file_path = "/tmp/test_template"
     -> write:
         - text = "test"
@@ -87,7 +87,7 @@ Replace a substring inside a text file.
 
 ::
 
-	text_file("replace in exiting file")
+    text_file("replace in exiting file")
     - file_path = "/tmp/test_template"
     -> replace:
         - old_text = "test"
