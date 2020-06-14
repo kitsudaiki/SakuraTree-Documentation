@@ -4,8 +4,8 @@
 The template group provides the functionality to generate text files based on a Jinja2 template, which has to exist in the "templates" directory beside the tree-file. This blossom-group is special as it contains only one blossom-type. The reason for this is primary the possebility of the visual separation of values.
 
 
-``create``
-~~~~~~~~~~
+``create_file``
+~~~~~~~~~~~~~~~
 
 Generate a text file from a Jinja2 template. For the conversion the library *libKitsunemimiJinja2* is used. It provides basic Jinja2 functions like replacements and simple if-conditions and for-loops.
 
@@ -14,12 +14,15 @@ Generate a text file from a Jinja2 template. For the conversion the library *lib
 ::
 
     template("create a template")
-    - source_path = "test_template.j2"
-    - dest_path = "/tmp/test_template"
-    -> create:
-       - checker = 42
-       - name = "test-template"
-
+    -> create_file:
+        - source_path = "test_template.j2"
+        - dest_path = "/tmp/test-file"
+        - owner = "ubuntu"
+        - permission = 644
+        - variables = { 
+                        - checker = 42
+                        - name = "test-template" 
+                      }
 
 
 Template-input:
@@ -32,8 +35,6 @@ Template-input:
     {{ name }}
     {% endif %}
 
-    poi
-
 
 Result:
 
@@ -43,9 +44,6 @@ Result:
     
     a
     test-template
-    
-    
-    poi
 
 
 
@@ -68,12 +66,17 @@ Result:
       - string-value
       - group to insert the new value into. If the group doesn't exist, it will be created.
 
-    * - (any name)
-      - data-item
+    * - owner
+      - string-value
+      - owner of the new created file
+
+    * - permission
+      - int-value
+      - permission for the new created file
+
+    * - variables
+      - item map
       - item which should be inserted into the template.
-
-
-Beside *source_path* and *dest_path* any other item name, which appears in the template file, has to be set here. The item can also be an array-item for example, which can be processed in the template using a for-loop.
 
 
 **Output**:
@@ -81,6 +84,79 @@ Beside *source_path* and *dest_path* any other item name, which appears in the t
     no output
 
 
+
+``create_string``
+~~~~~~~~~~~~~~~
+
+Generate a string from a Jinja2 template. For the conversion the library *libKitsunemimiJinja2* is used. It provides basic Jinja2 functions like replacements and simple if-conditions and for-loops. The converted string can be stored into a variable to be used by another blossom. This is usedful, for example when the content of the template should be only append to an existing file and should not replace the file. 
+
+**Example**:
+
+::
+
+    - converted_output = ""
+
+    template("create a template")
+    -> create_file:
+        - source_path = "test_template.j2"
+        - variables = { 
+                        - checker = 42
+                        - name = "test-template" 
+                      }
+        - blossom_output >> converted_output
+
+
+Template-input:
+
+::
+
+    this is
+    {% if checker is 42 %}
+    a
+    {{ name }}
+    {% endif %}
+
+
+Result:
+
+::
+
+    this is
+    
+    a
+    test-template
+
+
+
+**Input**:
+
+.. tabularcolumns:: |m{0.15\textwidth}|m{0.15\textwidth}|m{0.63\textwidth}|
+
+.. list-table::
+    :header-rows: 1
+
+    * - **Name**
+      - **Type**
+      - **Description**
+
+    * - source_path
+      - string-value
+      - Path to the already existing INI file.
+
+    * - variables
+      - item map
+      - item which should be inserted into the template.
+
+
+**Output**:
+
+    string-value with the converted and filled content of the template file
+
+
+.. raw:: latex
+
+    \newpage
+    
 
 Template Structure
 ^^^^^^^^^^^^^^^^^^
