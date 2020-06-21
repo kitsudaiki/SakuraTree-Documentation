@@ -8,7 +8,7 @@ The tool can be executed with the following command line call:
 
 ::
 
-    SakuraTree [--debug] [--init-tree-id <TREE_ID> ] [-item-input <ITEM_NAME>=<ITEM_CONTENT>] <FILE_OR_DIR_PATH>
+    SakuraTree [--debug] [-item-input <ITEM_NAME>=<ITEM_CONTENT>] <FILE_OR_DIR_PATH>
 
 
 **Arguments**:
@@ -16,10 +16,6 @@ The tool can be executed with the following command line call:
     * ``--debug`` or ``-d``:
 
         * **Description**: Enable debug-output.
-
-    * ``--init-tree-id`` or ``-t``:
-
-        * **Description**: In case, that the FILE_OR_DIR_PATH is the path of a directory, the init-tree-id has to be set to identify the tree-file, which should be called as first file.
 
     * ``--item-input`` or ``-i``:
 
@@ -30,7 +26,7 @@ The tool can be executed with the following command line call:
 
     * ``<FILE_OR_DIR_PATH>``:
 
-        * **Description**: Path to the initial tree-file, which should be executed by the tool or to the parent directory, where are all relevant tree-files, which should be used. 
+        * **Description**: Absolute path to the initial tree-file, which should be executed by the tool or to the parent directory, where the `root.tree`-file is located. 
 
         * **Restriction**: It has to be an absolute path. (update expected with version 0.3.0)
 
