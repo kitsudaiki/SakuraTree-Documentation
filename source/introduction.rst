@@ -76,7 +76,7 @@ I often encountered things while deploying one or multiple nodes, which could be
 
 **hierarchical client-server-architecture**
 
-*current state: prototype (will be fixed and completed with version 0.3.0)*
+*current state: prototype (prototypical Implemented, but not documented now)*
 
 Similar to Chef, this tool has a client-server-architecture. But this was not enough. Each SakuraTree process can work as client and/or server. So you can create a hierarchical structure of clients and servers for faster data transfer. For example let's say you have a very big image and want to copy it to each node of a deployment with hundreds of nodes. With the ability to spawn new clients and servers within the deployment, you can copy this to one node, which in turn copies the file to two other nodes and these nodes again copy it to the next four nodes and so on.
 
