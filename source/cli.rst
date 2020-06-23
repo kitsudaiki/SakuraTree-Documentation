@@ -26,10 +26,7 @@ The tool can be executed with the following command line call:
 
     * ``<FILE_OR_DIR_PATH>``:
 
-        * **Description**: Absolute path to the initial tree-file, which should be executed by the tool or to the parent directory, where the `root.tree`-file is located. 
-
-        * **Restriction**: It has to be an absolute path. (update expected with version 0.3.0)
-
+        * **Description**: Path to the initial tree-file, which should be executed by the tool or to the parent directory, where the `root.tree`-file is located. Path can be relative or absolute.
 
 **Example**
 
