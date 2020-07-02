@@ -1,7 +1,7 @@
 Files
 -----
 
-The script files are refered to in this document as *tree-files*. The structure of these files will be shown according to the example from the beginning of this chapter:
+The script files are refered to in this document as *sakura-files*. The structure of these files will be shown according to the example from the beginning of this chapter:
 
 **Example**
 
@@ -41,7 +41,7 @@ The script files are refered to in this document as *tree-files*. The structure 
     }
 
 
-Each tree-file consist of the following three parts:
+Each sakura-file consist of the following three parts:
 
 * **Header**
 
@@ -49,7 +49,7 @@ Each tree-file consist of the following three parts:
 
         ["test example file"]
 
-    The header of the file only contains a name for the file between "[]". This name is printed in the output and may help while debugging. With support for only one file, it doesn't make much sense currently but when support for nested tree-files will be added in a future version, it will make debugging a little bit easier.
+    The header of the file only contains a name for the file between "[]". This name is printed in the output and may help while debugging. With support for only one file, it doesn't make much sense currently but when support for nested sakura-files will be added in a future version, it will make debugging a little bit easier.
 
 * **Global items**
 

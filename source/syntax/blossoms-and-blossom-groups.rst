@@ -1,7 +1,7 @@
 Blossoms and Blossom-Groups
 ---------------------------
 
-Because the tool *SakuraTree* is a reference for trees with cherry blossoms, the core objects of this automation tool are called blossoms. They are a predefined set, which can be called within the tree-files. They process the desired tasks and are filled with values via item assignments. Most of them consist of a blossom-group, which contains one ore more blossoms:
+Because the tool *SakuraTree* is a reference for trees with cherry blossoms, the core objects of this automation tool are called blossoms. They are a predefined set, which can be called within the sakura-files. They process the desired tasks and are filled with values via item assignments. Most of them consist of a blossom-group, which contains one ore more blossoms:
 
 **Example**
 

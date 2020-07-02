@@ -46,7 +46,7 @@ This is the current set of components of this project. There will coming more.
 
     License: Apache License 2.0
 
-    This repository contains the whole parser for the syntax. It use the GNU Bison parser generator to keep the parser easy to maintain. The files, which contains the scripts and are parsed here, will be named in the following document as *tree-files*.
+    This repository contains the whole parser for the syntax. It use the GNU Bison parser generator to keep the parser easy to maintain. The files, which contains the scripts and are parsed here, will be named in the following document as *sakura-files*.
 
 
 **libKitsunemimiSakuraNetwork**

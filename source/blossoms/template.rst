@@ -1,7 +1,7 @@
 ``template``
 ------------
 
-The template group provides the functionality to generate text files based on a Jinja2 template, which has to exist in the "templates" directory beside the tree-file. This blossom-group is special as it contains only one blossom-type. The reason for this is primary the possebility of the visual separation of values.
+The template group provides the functionality to generate text files based on a Jinja2 template, which has to exist in the "templates" directory beside the sakura-file. This blossom-group is special as it contains only one blossom-type. The reason for this is primary the possebility of the visual separation of values.
 
 
 ``create_file``

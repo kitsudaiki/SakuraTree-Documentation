@@ -5,7 +5,7 @@ With this section-type it's possible to spread the workload of a for-loop over m
 
 In the *parallel_for* each iteration will be encapsulated as standalone object with the whole content of the loop as a new subtree and all incoming values in addition to the item at the current location of the iterated array or map or the counter item respectively. This object is placed in a queue from where it will be processed by a free worker thread. That way even in case of a loop over an item with 1000 entries this doesn't create 1000 threads but instead of this it places 1000 objects into the subtree-queue to be processed by x worker threads.
 
-Exactly like in the *parallel*-section, changing values inside the parallel-loop doesn't affect any value in any other iteration of the loop and doesn't affect values outside the loop. Besides this, everything following the for-loop inside the tree-file is only executed after each iteration of the loop was fully processed by the worker threads.
+Exactly like in the *parallel*-section, changing values inside the parallel-loop doesn't affect any value in any other iteration of the loop and doesn't affect values outside the loop. Besides this, everything following the for-loop inside the sakura-file is only executed after each iteration of the loop was fully processed by the worker threads.
 
 
 parallel for-loop
