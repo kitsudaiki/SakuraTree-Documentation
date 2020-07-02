@@ -1,7 +1,7 @@
 ``template``
 ------------
 
-The template group provides the functionality to generate text files based on a Jinja2 template, which has to exist in the "templates" directory beside the tree-file. This blossom-group is special as it contains only one blossom-type. The reason for this is primary the possebility of the visual separation of values.
+The template group provides the functionality to generate text files based on a Jinja2 template, which has to exist in the "templates" directory beside the sakura-file. This blossom-group is special as it contains only one blossom-type. The reason for this is primary the possebility of the visual separation of values.
 
 
 ``create_file``
@@ -86,7 +86,7 @@ Result:
 
 
 ``create_string``
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 Generate a string from a Jinja2 template. For the conversion the library *libKitsunemimiJinja2* is used. It provides basic Jinja2 functions like replacements and simple if-conditions and for-loops. The converted string can be stored into a variable to be used by another blossom. This is usedful, for example when the content of the template should be only append to an existing file and should not replace the file. 
 

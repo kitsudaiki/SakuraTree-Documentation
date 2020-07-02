@@ -26,11 +26,11 @@ The tool can be executed with the following command line call:
 
     * ``<FILE_OR_DIR_PATH>``:
 
-        * **Description**: Path to the initial tree-file, which should be executed by the tool or to the parent directory, where the `root.tree`-file is located. Path can be relative or absolute.
+        * **Description**: Path to the initial sakura-file, which should be executed by the tool or to the parent directory, where the `root.sakura`-file is located. Path can be relative or absolute.
 
 **Example**
 
-Create a test file for example as a file named *test-file.tree* with following content:
+Create a test file for example as a file named *test-file.sakura* with following content:
 
 ::
 
@@ -45,11 +45,11 @@ To execute the test file without further options, it's called like this:
 
 ::
 
-    SakuraTree /path/to/test-file/test-file.tree
+    SakuraTree /path/to/test-file/test-file.sakura
 
 
 To execute the test file with *asdf* as initial content for the item *test_output*, it can be called like this:
 
 ::
 
-    SakuraTree -i test_output=asdf /path/to/test-file/test-file.tree
+    SakuraTree -i test_output=asdf /path/to/test-file/test-file.sakura

@@ -1,12 +1,12 @@
 Items
 -----
 
-Items are the objects used to store any information inside the tree-files. They could also be called variables.
+Items are the objects used to store any information inside the sakura-files. They could also be called variables.
 
 Types
 ~~~~~
 
-In this description all objects, which contain values, are called *items*. Any item in the tree-files is written without explicit type. Internally the items are handled like JSON objects. So they can be values of different types, arrays of any other item or a key-item-map. In this regard it's similar to variables in Python. 
+In this description all objects, which contain values, are called *items*. Any item in the sakura-files is written without explicit type. Internally the items are handled like JSON objects. So they can be values of different types, arrays of any other item or a key-item-map. In this regard it's similar to variables in Python. 
 
 Overview of all available item types and their relation to each other:
 
@@ -39,7 +39,7 @@ Maybe in the future I will also introduce optional type definitions to allow onl
 Item Assignments
 ~~~~~~~~~~~~~~~~
 
-Each item assignment in the tree-files has in general the following style:
+Each item assignment in the sakura-files has in general the following style:
 
 ::
 
@@ -68,7 +68,7 @@ The following assignment types are supported:
 
     This is a special case. It's similar to initializing a variable with *None* in Python or with *nullptr* in C++ and means that the item has no defined state. (I don't exactly know anymore, why I used *{{}}* here. When I remember again, I will write it down here.)
 
-    Before a tree-file will be executed, it checks if all items have a defined values. This way it can be guaranteed that all items, which have no default-value, are set into a defined state by the instance which calls this tree-file. 
+    Before a sakura-file will be executed, it checks if all items have a defined values. This way it can be guaranteed that all items, which have no default-value, are set into a defined state by the instance which calls this sakura-file. 
 
     **Example**
 

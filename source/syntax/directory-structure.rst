@@ -1,7 +1,7 @@
 Directory Structure
 -------------------
 
-The tool also provides the functionality to store files beside the tree-files, which can be used by the blossoms. To use this the directory must have for following structure:
+The tool also provides the functionality to store files beside the sakura-files, which can be used by the blossoms. To use this the directory must have for following structure:
 
 ::
 
@@ -40,7 +40,7 @@ Directories:
     All Jinja2 template files stored in here can be used by the *template*-blossom to fill them with items to generate text files.
 
 
-The *files* and *templates* directories always have to be in the same directory like the tree-files, which is using them. Even in the planned multi-file-support in version 0.3.0, there will most likely be no global files- or templates-directory, like it is in Ansible or Chef. 
+The *files* and *templates* directories always have to be in the same directory like the sakura-files, which is using them. Even in the planned multi-file-support in version 0.3.0, there will most likely be no global files- or templates-directory, like it is in Ansible or Chef. 
 
 .. raw:: latex
 

@@ -34,15 +34,15 @@ Copy a file or directory from one location on the disk to another one or copy a 
 
     * - source_path
       - string-value
-      - Path to the source file or source directory. Either an absolute path starting with "/" or a relative path inside the "files" directory beside the tree-file.
+      - Path to the source file or source directory. Either an absolute path starting with "/" or a relative path inside the "files" directory beside the sakura-file.
 
     * - dest_path
       - string-value
       - Absolute path to the destination of the file.
 
     * - owner
-	  - string-value or int-value
-	  - User name or user id to set for the destination file.
+      - string-value or int-value
+      - User name or user id to set for the destination file.
 
     * - mode
       - int-value
