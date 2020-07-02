@@ -41,8 +41,8 @@ Copy a file or directory from one location on the disk to another one or copy a 
       - Absolute path to the destination of the file.
 
     * - owner
-	  - string-value or int-value
-	  - User name or user id to set for the destination file.
+      - string-value or int-value
+      - User name or user id to set for the destination file.
 
     * - mode
       - int-value

@@ -86,7 +86,7 @@ Result:
 
 
 ``create_string``
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 Generate a string from a Jinja2 template. For the conversion the library *libKitsunemimiJinja2* is used. It provides basic Jinja2 functions like replacements and simple if-conditions and for-loops. The converted string can be stored into a variable to be used by another blossom. This is usedful, for example when the content of the template should be only append to an existing file and should not replace the file. 
 
