@@ -415,6 +415,44 @@ Check if an item contains another specific item.
       - result if the string contains a substring, which match the argument string
 
 
+``parse_json``
+^^^^^^^^^^^^
+
+Parse a json-formated for easies access to the content
+
+**Example**:
+
+::
+
+    - input = "{ \"test\": 2, \"asdf\": { \"xyz\": 42 } }"
+    - parsed_content = {}
+
+    item_update("parse json")
+    - parsed_content = input.parse_json()
+
+
+**Arguments**:
+
+    no arguments
+
+**Output Type**:
+
+    data-item based on the parsed content
+
+**Input Item**:
+
+.. tabularcolumns:: |m{0.27\textwidth}|m{0.66\textwidth}|
+
+.. list-table::
+    :header-rows: 1
+
+    * - **Item type**
+      - **Output Content**
+
+    * - string-item
+      - json-formated string
+
+
 .. raw:: latex
 
     \newpage
