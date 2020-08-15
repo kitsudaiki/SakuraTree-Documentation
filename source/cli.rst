@@ -17,6 +17,10 @@ The tool can be executed with the following command line call:
 
         * **Description**: Enable debug-output.
 
+    * ``--dry-run``:
+
+        * **Description**: Enable dry-run to check scripts for syntax-error, linking-errors and so on, without executing the scripts.
+
     * ``--item-input`` or ``-i``:
 
         * **Description**: Key-value pairs to override the initial values inside of the file. This flag can be used multiple times for each item which should be overwritten.
