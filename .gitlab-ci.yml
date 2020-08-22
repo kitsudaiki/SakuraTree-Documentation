@@ -1,4 +1,4 @@
-image: registry.gitlab.com/tobiasanker/kitsunemimi-docker-files/ci_runner_doc_build:1.0.0
+image: registry.gitlab.com/kitsudaiki/kitsunemimi-ci-docker-images/sphinx-build:1.0.0
 
 build:
   script:
