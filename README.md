@@ -1,7 +1,7 @@
 # Sakura-Project-Documentation
 
 
-This is the documentation of my Sakura-Project with its core-component SakuraTree (https://github.com/tobiasanker/SakuraTree) 
+This is the documentation of my Sakura-Project with its core-component SakuraTree (https://github.com/kitsudaiki/SakuraTree) 
 
 ## Prebuild
 
@@ -20,7 +20,7 @@ https://gitlab.com/kitsudaikir/Sakura-Project-Documentation/builds/artifacts/mas
 Build latex-document:
 
 ```
-git clone https://github.com/tobiasanker/Sakura-Project-Documentation.git
+git clone https://github.com/kitsudaiki/Sakura-Project-Documentation.git
 cd Sakura-Project-Documentation
 make latexpdf 
 

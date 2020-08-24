@@ -31,7 +31,7 @@ This is the current set of components of this project. There will coming more.
 
 **SakuraTree**
 
-    Path: https://github.com/tobiasanker/SakuraTree
+    Path: https://github.com/kitsudaiki/SakuraTree
 
     License: Apache License 2.0
 
@@ -42,7 +42,7 @@ This is the current set of components of this project. There will coming more.
 
 **libKitsunemimiSakuraParser**
 
-    Path: https://github.com/tobiasanker/libKitsunemimiSakuraParser
+    Path: https://github.com/kitsudaiki/libKitsunemimiSakuraParser
 
     License: Apache License 2.0
 
@@ -51,7 +51,7 @@ This is the current set of components of this project. There will coming more.
 
 **libKitsunemimiSakuraNetwork**
 
-	Path: https://github.com/tobiasanker/libKitsunemimiSakuraNetwork
+	Path: https://github.com/kitsudaiki/libKitsunemimiSakuraNetwork
 
     License: Apache License 2.0
 

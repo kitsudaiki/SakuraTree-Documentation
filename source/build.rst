@@ -115,43 +115,43 @@ These repositories will be downloaded automatically by the build script of the t
 
     * - libKitsunemimiCommon
       - master
-      - https://github.com/tobiasanker/libKitsunemimiCommon.git 
+      - https://github.com/kitsudaiki/libKitsunemimiCommon.git 
 
     * - libKitsunemimiPersistence
       - master
-      - https://github.com/tobiasanker/libKitsunemimiPersistence.git 
+      - https://github.com/kitsudaiki/libKitsunemimiPersistence.git 
 
     * - libKitsunemimiArgs
       - master
-      - https://github.com/tobiasanker/libKitsunemimiArgs.git 
+      - https://github.com/kitsudaiki/libKitsunemimiArgs.git 
 
     * - libKitsunemimiJson
       - master
-      - https://github.com/tobiasanker/libKitsunemimiJson.git 
+      - https://github.com/kitsudaiki/libKitsunemimiJson.git 
 
     * - libKitsunemimiJinja2
       - master
-      - https://github.com/tobiasanker/libKitsunemimiJinja2.git 
+      - https://github.com/kitsudaiki/libKitsunemimiJinja2.git 
 
     * - libKitsunemimiIni
       - master
-      - https://github.com/tobiasanker/libKitsunemimiIni.git 
+      - https://github.com/kitsudaiki/libKitsunemimiIni.git 
 
     * - libKitsunemimiNetwork
       - master
-      - https://github.com/tobiasanker/libKitsunemimiNetwork.git 
+      - https://github.com/kitsudaiki/libKitsunemimiNetwork.git 
 
     * - libKitsunemimiProjectNetwork
       - master
-      - https://github.com/tobiasanker/libKitsunemimiProjectNetwork.git 
+      - https://github.com/kitsudaiki/libKitsunemimiProjectNetwork.git 
 
     * - libKitsunemimiSakuraNetwork
       - master
-      - https://github.com/tobiasanker/libKitsunemimiSakuraNetwork.git 
+      - https://github.com/kitsudaiki/libKitsunemimiSakuraNetwork.git 
 
     * - libKitsunemimiSakuraParser
       - master
-      - https://github.com/tobiasanker/libKitsunemimiSakuraParser.git 
+      - https://github.com/kitsudaiki/libKitsunemimiSakuraParser.git 
 
 
 .. raw:: latex
