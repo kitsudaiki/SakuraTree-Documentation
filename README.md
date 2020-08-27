@@ -5,13 +5,9 @@ This is the documentation of my Sakura-Project with its core-component SakuraTre
 
 ## Prebuild
 
-Prebuild for version 0.2.0 (latest tagged version):
-
-https://gitlab.com/kitsudaiki/Sakura-Project-Documentation/-/jobs/394246432/artifacts/browse
-
 Prebuild for latest master-version:
 
-https://gitlab.com/kitsudaikir/Sakura-Project-Documentation/builds/artifacts/master/browse?job=build
+https://gitlab.com/kitsudaiki/Sakura-Project-Documentation/-/jobs/701227612/artifacts/browse
 
 **IMPORTANT**: The master-version of the documentation actually differs from the master of the code, because the code has a bit bigger restructure for the multi-node support.
 
