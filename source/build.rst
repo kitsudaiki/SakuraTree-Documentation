@@ -114,44 +114,44 @@ These repositories will be downloaded automatically by the build script of the t
       - **download-path**
 
     * - libKitsunemimiCommon
-      - master
+      - v0.15.1
       - https://github.com/kitsudaiki/libKitsunemimiCommon.git 
 
     * - libKitsunemimiPersistence
-      - master
+      - v0.10.0
       - https://github.com/kitsudaiki/libKitsunemimiPersistence.git 
 
     * - libKitsunemimiArgs
-      - master
+      - v0.2.0
       - https://github.com/kitsudaiki/libKitsunemimiArgs.git 
 
     * - libKitsunemimiJson
-      - master
+      - v0.10.3
       - https://github.com/kitsudaiki/libKitsunemimiJson.git 
 
     * - libKitsunemimiJinja2
-      - master
+      - v0.7.3
       - https://github.com/kitsudaiki/libKitsunemimiJinja2.git 
 
     * - libKitsunemimiIni
-      - master
+      - v0.4.4
       - https://github.com/kitsudaiki/libKitsunemimiIni.git 
 
     * - libKitsunemimiNetwork
-      - master
+      - v0.6.4
       - https://github.com/kitsudaiki/libKitsunemimiNetwork.git 
 
     * - libKitsunemimiProjectNetwork
-      - master
+      - v0.2.0
       - https://github.com/kitsudaiki/libKitsunemimiProjectNetwork.git 
 
     * - libKitsunemimiSakuraNetwork
-      - master
+      - v0.1.0
       - https://github.com/kitsudaiki/libKitsunemimiSakuraNetwork.git 
 
-    * - libKitsunemimiSakuraParser
-      - master
-      - https://github.com/kitsudaiki/libKitsunemimiSakuraParser.git 
+    * - libKitsunemimiSakuraLang
+      - v0.3.1
+      - https://github.com/kitsudaiki/libKitsunemimiSakuraLang.git 
 
 
 .. raw:: latex
