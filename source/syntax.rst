@@ -56,9 +56,9 @@ In this version 0.2.0 only single files can be executed by the tool. The functio
     \newpage
 
 
-.. include:: syntax/general_syntax.rst
-.. include:: syntax/items.rst
-.. include:: syntax/blossoms-and-blossom-groups.rst
-.. include:: syntax/file-structure.rst
-.. include:: syntax/directory-structure.rst
-.. include:: syntax/functions.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/general_syntax.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/items.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/blossoms-and-blossom-groups.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/file-structure.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/directory-structure.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/functions.rst

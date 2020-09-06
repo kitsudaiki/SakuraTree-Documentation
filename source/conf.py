@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Sakura-Project documentation build configuration file, created by
+# SakuraTree-Documentation build configuration file, created by
 # sphinx-quickstart on Sat Dec 28 21:42:20 2019.
 #
 # This file is execfile()d with the current directory set to its
@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Sakura-Project'
+project = 'SakuraTree-Documentation'
 copyright = '2019, Tobias Anker'
 author = 'Tobias Anker'
 
@@ -136,7 +136,7 @@ html_theme = 'alabaster'
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = 'Sakura-Project v0.2.0'
+# html_title = 'SakuraTree-Documentation v0.2.0'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -236,7 +236,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Sakura-Projectdoc'
+htmlhelp_basename = 'SakuraTree-Documentationdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -274,7 +274,7 @@ VerbatimBorderColor={HTML}{FFFFFF},
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Sakura-Project.tex', 'Sakura-Project Documentation',
+    (master_doc, 'SakuraTree-Documentation.tex', 'SakuraTree-Documentation',
      'Tobias Anker', 'manual'),
 ]
 
@@ -316,7 +316,7 @@ latex_logo = "pictures/logo-sakura.pdf"
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sakura-project-documentation', 'Sakura-Project Documentation',
+    (master_doc, 'SakuraTree-Documentation', 'SakuraTree-Documentation',
      [author], 1)
 ]
 
@@ -331,8 +331,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Sakura-Project', 'Sakura-Project Documentation',
-     author, 'Sakura-Project', 'One line description of project.',
+    (master_doc, 'SakuraTree-Documentation', 'SakuraTree-Documentation',
+     author, 'Tobias Anker', 'One line description of project.',
      'Miscellaneous'),
 ]
 
