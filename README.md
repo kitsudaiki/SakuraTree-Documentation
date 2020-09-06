@@ -16,7 +16,7 @@ https://gitlab.com/kitsudaiki/SakuraTree-Documentation/builds/artifacts/master/b
 Build latex-document:
 
 ```
-git clone https://github.com/kitsudaiki/SakuraTree-Documentation.git
+git clone --recurse-submodules https://github.com/kitsudaiki/SakuraTree-Documentation.git
 cd SakuraTree-Documentation
 make latexpdf 
 
