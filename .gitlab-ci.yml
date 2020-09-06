@@ -6,11 +6,13 @@ build:
     - unzip fonts/ubuntu-font-family-0.83.zip -d /usr/share/fonts/truetype/
     - unzip fonts/source-sans-pro.zip -d /usr/share/fonts/truetype/
     - fc-cache -f
+    - git submodule init
+    - git submodule update
     - make latexpdf
-    - mv build/latex/Sakura-Project.pdf ./Sakura-Project-Documentation.pdf
+    - mv build/latex/SakuraTree-Documentation.pdf ./SakuraTree-Documentation.pdf
   tags:
     - docker
   artifacts:
     paths:
-      - Sakura-Project-Documentation.pdf
+      - SakuraTree-Documentation.pdf
 

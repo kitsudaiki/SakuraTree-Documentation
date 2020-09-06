@@ -1,7 +1,7 @@
 Sections
 ========
 
-.. include:: sections/if.rst
-.. include:: sections/for.rst
-.. include:: sections/parallel.rst
-.. include:: sections/parallel_for.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/sections/if.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/sections/for.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/sections/parallel.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/sections/parallel_for.rst
