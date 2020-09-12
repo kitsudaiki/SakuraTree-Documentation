@@ -52,12 +52,6 @@ Required Tools
       - >= 3.0
       - Build the parser code together with the lexer code.
 
-    * - xxd
-      - xxd
-      - >= 1.10
-      - converts text files into source code files
-
-
 Installation on Ubuntu/Debian:
 
 ::
@@ -84,10 +78,6 @@ Official Libraries
       - **version**
       - **task**
  
-    * - libssl-dev
-      - >= 1.1.0
-      - For tls-encrypted data-transfer.
-
     * - libboost-filesystem-dev
       - >= 1.60
       - Used for file interactions like for example listing files in a directory or check if a path exist.
@@ -137,20 +127,8 @@ These repositories will be downloaded automatically by the build script of the t
       - v0.4.4
       - https://github.com/kitsudaiki/libKitsunemimiIni.git 
 
-    * - libKitsunemimiNetwork
-      - v0.6.4
-      - https://github.com/kitsudaiki/libKitsunemimiNetwork.git 
-
-    * - libKitsunemimiProjectNetwork
-      - v0.2.0
-      - https://github.com/kitsudaiki/libKitsunemimiProjectNetwork.git 
-
-    * - libKitsunemimiSakuraNetwork
-      - v0.1.0
-      - https://github.com/kitsudaiki/libKitsunemimiSakuraNetwork.git 
-
     * - libKitsunemimiSakuraLang
-      - v0.3.1
+      - master
       - https://github.com/kitsudaiki/libKitsunemimiSakuraLang.git 
 
 

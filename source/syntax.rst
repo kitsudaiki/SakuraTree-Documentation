@@ -46,11 +46,6 @@ A tool for automating processes has its own requirements and limitations and so 
 
 
 
-**Restrictions**
-
-In this version 0.2.0 only single files can be executed by the tool. The functionality that files can call other files is expected to be added in version 0.3.0.
-
-
 .. raw:: latex
 
     \newpage

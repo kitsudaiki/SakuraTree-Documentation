@@ -25,7 +25,7 @@ The tool can be executed with the following command line call:
 
         * **Description**: Key-value pairs to override the initial values inside of the file. This flag can be used multiple times for each item which should be overwritten.
 
-        * **Restriction**: The value is internally a string-value. Even when you use *-i value=42* the *42* is internally handled as string-value and NOT as an int-value. (update with version 0.3.0)
+        * **Restriction**: The value is internally a string-value. Even when you use *-i value=42* the *42* is internally handled as string-value and NOT as an int-value.
 
 
     * ``<FILE_OR_DIR_PATH>``:

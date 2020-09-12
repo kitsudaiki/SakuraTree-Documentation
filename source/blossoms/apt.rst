@@ -3,12 +3,8 @@
 
 Provides interactions with ``apt-get`` for Debian-based systems.
 
-**DEPRECATED: this type is marked as deprecated and will be reworked with version 0.3.0**
-
 ``update``
 ~~~~~~~~~~
-
-**DEPRECATED: this type is marked as deprecated and will be reworked with version 0.3.0**
 
 Run an ``apt-get udpate``
 
@@ -32,8 +28,6 @@ Run an ``apt-get udpate``
 ``upgrade``
 ~~~~~~~~~~~
 
-**DEPRECATED: this type is marked as deprecated and will be reworked with version 0.3.0**
-
 Run an ``apt-get -y upgrade``
 
 **Example**:
@@ -55,8 +49,6 @@ Run an ``apt-get -y upgrade``
 
 ``present``
 ~~~~~~~~~~~
-
-**DEPRECATED: this type is marked as deprecated and will be reworked with version 0.3.0**
 
 Check if a list of apt-packages is installed and install all packages with ``apt-get install -y ..``, which do not exist. All existing packages are skipped.
 
@@ -95,8 +87,6 @@ Check if a list of apt-packages is installed and install all packages with ``apt
 ``latest``
 ~~~~~~~~~~
 
-**DEPRECATED: this type is marked as deprecated and will be reworked with version 0.3.0**
-
 Install if not exist or update if exist a list of apt-packages with ``apt-get install -y ..``.
 
 **Example**:
@@ -132,8 +122,6 @@ Install if not exist or update if exist a list of apt-packages with ``apt-get in
 
 ``absent``
 ~~~~~~~~~~
-
-**DEPRECATED: this type is marked as deprecated and will be reworked with version 0.3.0**
 
 Remove all apt-packages of a given list, which still exist on the system with ``apt-get remove -y ..``.
 
