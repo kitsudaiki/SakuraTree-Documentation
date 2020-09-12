@@ -103,7 +103,7 @@ Generate a string from a Jinja2 template. For the conversion the library *libKit
                         - checker = 42
                         - name = "test-template" 
                       }
-        - blossom_output >> converted_output
+        - text >> converted_output
 
 
 Template-input:
@@ -150,8 +150,18 @@ Result:
 
 **Output**:
 
-    string-value with the converted and filled content of the template file
+.. tabularcolumns:: |m{0.15\textwidth}|m{0.15\textwidth}|m{0.63\textwidth}|
 
+.. list-table::
+    :header-rows: 1
+
+    * - **Name**
+      - **Type**
+      - **Description**
+
+    * - text
+      - string-value
+      - Converted and filled content of the template file.
 
 .. raw:: latex
 

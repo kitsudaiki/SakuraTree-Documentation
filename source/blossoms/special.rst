@@ -140,11 +140,13 @@ Run a custom shell command.
 ::
 
     - test_file = "/proc/cpuinfo"
+    - cli_output = ""
 
     cmd("test-command")
     - command = "cat {{test_file}}"
     - ignore_errors = true
     - trim_output = true
+    - output >> cli_output
 
 
 **Input**:
@@ -173,7 +175,18 @@ Run a custom shell command.
 
 **Output**:
 
-    - string-value with the stdout/stderr content of the called tool
+.. tabularcolumns:: |m{0.15\textwidth}|m{0.15\textwidth}|m{0.63\textwidth}|
+
+.. list-table::
+    :header-rows: 1
+
+    * - **Name**
+      - **Type**
+      - **Description**
+
+    * - output
+      - string-value
+      - Output of the cli-command.
     
 
 ``exit``

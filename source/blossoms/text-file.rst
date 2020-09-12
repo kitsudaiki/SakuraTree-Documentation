@@ -15,7 +15,7 @@ Read the content of a text file and write it into a item.
     text_file("read test-file")
     - file_path = "/tmp/test_template"
     -> read:
-       - blossom_output >> test_output
+       - text >> test_output
 
 
 **Input**:
@@ -35,7 +35,18 @@ Read the content of a text file and write it into a item.
 
 **Output**:
 
-    string-value with the content of the text file
+.. tabularcolumns:: |m{0.15\textwidth}|m{0.15\textwidth}|m{0.63\textwidth}|
+
+.. list-table::
+    :header-rows: 1
+
+    * - **Name**
+      - **Type**
+      - **Description**
+
+    * - text
+      - string-value
+      - Content of the read text-file.
 
 
 ``write``

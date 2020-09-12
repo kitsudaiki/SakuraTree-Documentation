@@ -69,7 +69,7 @@ Read a specific value from an INI file.
     - group = "DEFAULT"
     -> get:
         - entry = "asdf"
-        - blossom_output >> test_output
+        - value >> test_output
 
 
 **Input**:
@@ -97,7 +97,18 @@ Read a specific value from an INI file.
 
 **Output**:
 
-    data-item (type depends on the type of the value inside the INI file, so it can be any value-item or an array-item)
+.. tabularcolumns:: |m{0.15\textwidth}|m{0.15\textwidth}|m{0.63\textwidth}|
+
+.. list-table::
+    :header-rows: 1
+
+    * - **Name**
+      - **Type**
+      - **Description**
+
+    * - value
+      - data-item
+      - Value of the given group- and entry-name. Type of the value depends on the type of the value inside the INI file, so it can be any value-item or an array-item.
 
 
 ``delete``

@@ -53,8 +53,19 @@ Run a shell command over SSH.
 
 **Output**:
 
-    - string-value with the stdout content of the called tool
+.. tabularcolumns:: |m{0.15\textwidth}|m{0.15\textwidth}|m{0.63\textwidth}|
 
+.. list-table::
+    :header-rows: 1
+
+    * - **Name**
+      - **Type**
+      - **Description**
+
+    * - output
+      - string-value
+      - Output of the cli-command.
+    
 **Restrictions**
 
     * stderr content of the called tool is discarded
