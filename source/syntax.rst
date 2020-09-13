@@ -36,7 +36,7 @@ A tool for automating processes has its own requirements and limitations and so 
         - entry = "asdf"
 
         -> read:
-            - blossom_output >> test_output
+            - value >> test_output
         -> set:
             - value = "123456789"
 
