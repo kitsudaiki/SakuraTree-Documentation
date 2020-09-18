@@ -56,4 +56,7 @@ A tool for automating processes has its own requirements and limitations and so 
 .. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/blossoms-and-blossom-groups.rst
 .. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/file-structure.rst
 .. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/directory-structure.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/subtrees.rst
+.. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/resources.rst
 .. include:: libKitsunemimiSakuraLang-Documentation/source/syntax/functions.rst
+
