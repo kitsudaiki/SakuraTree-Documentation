@@ -116,19 +116,19 @@ These repositories will be downloaded automatically by the build script of the t
       - https://github.com/kitsudaiki/libKitsunemimiArgs.git 
 
     * - libKitsunemimiJson
-      - v0.10.3
+      - v0.10.4
       - https://github.com/kitsudaiki/libKitsunemimiJson.git 
 
     * - libKitsunemimiJinja2
-      - v0.7.3
+      - v0.8.0
       - https://github.com/kitsudaiki/libKitsunemimiJinja2.git 
 
     * - libKitsunemimiIni
-      - v0.4.4
+      - v0.4.5
       - https://github.com/kitsudaiki/libKitsunemimiIni.git 
 
     * - libKitsunemimiSakuraLang
-      - master
+      - v0.5.0
       - https://github.com/kitsudaiki/libKitsunemimiSakuraLang.git 
 
 
