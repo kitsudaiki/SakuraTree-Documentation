@@ -1,9 +1,6 @@
 CLI
 ===
 
-SakuraTree
-----------
-
 The tool can be executed with the following command line call:
 
 ::
@@ -12,6 +9,14 @@ The tool can be executed with the following command line call:
 
 
 **Arguments**:
+
+    * ``--help`` or ``-h``:
+
+        * **Description**: Print help-output with the available cli-parameter.
+
+    * ``--version`` or ``-v``:
+
+        * **Description**: Print version.
 
     * ``--debug`` or ``-d``:
 
@@ -31,6 +36,10 @@ The tool can be executed with the following command line call:
     * ``<FILE_OR_DIR_PATH>``:
 
         * **Description**: Path to the initial sakura-file, which should be executed by the tool or to the parent directory, where the `root.sakura`-file is located. Path can be relative or absolute.
+
+.. raw:: latex
+
+    \newpage
 
 **Example**
 
