@@ -112,7 +112,7 @@ These repositories will be downloaded automatically by the build script of the t
       - https://github.com/kitsudaiki/libKitsunemimiPersistence.git 
 
     * - libKitsunemimiArgs
-      - v0.2.0
+      - v0.2.1
       - https://github.com/kitsudaiki/libKitsunemimiArgs.git 
 
     * - libKitsunemimiJson
@@ -128,7 +128,7 @@ These repositories will be downloaded automatically by the build script of the t
       - https://github.com/kitsudaiki/libKitsunemimiIni.git 
 
     * - libKitsunemimiSakuraLang
-      - v0.5.0
+      - v0.5.1
       - https://github.com/kitsudaiki/libKitsunemimiSakuraLang.git 
 
 
