@@ -9,9 +9,9 @@ Documentation for latest master-version:
 
 https://gitlab.com/kitsudaiki/SakuraTree-Documentation/builds/artifacts/master/browse?job=build
 
-For SakuraTree version 0.4.0:
+For SakuraTree version 0.4.1:
 
-https://files.kitsunemimi.moe/docs/SakuraTree-Documentation_0_4_0.pdf
+https://files.kitsunemimi.moe/docs/SakuraTree-Documentation_0_4_1.pdf
 
 
 ## Build 
