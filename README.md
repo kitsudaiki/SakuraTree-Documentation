@@ -1,7 +1,7 @@
 # SakuraTree-Documentation
 
 
-This is the documentation of the SakuraTree project (https://github.com/kitsudaiki/SakuraTree), which pro
+This is the documentation of the SakuraTree project (https://github.com/kitsudaiki/SakuraTree), which provides a simple and small automation tool.
 
 ## Prebuild
 
