@@ -3,16 +3,12 @@
 
 This is the documentation of the SakuraTree project (https://github.com/kitsudaiki/SakuraTree), which provides a simple and small automation tool.
 
-## Prebuild
+---
 
-Documentation for latest master-version: 
+**IMPORTANT: For various reasons, this project will not be continued, because it is not needed anymore and I want to focus on my main-project. 
+Beside this, I removed the logo here to avoid confusion. This project here was only a side-project and will not be continued. But I liked the logo a lot and don't want to lose it, so I moved the logo to my main-project. It is my onwn logo and this and the other projects are mine, so it is legitimate for me to do this. Beside this, SakuraTree isn't really used somewhere anyway and it was also originally mentioned to roll out my main-project, which now holds the logo. So there is also a good reason for this move.**
 
-https://gitlab.com/kitsudaiki/SakuraTree-Documentation/builds/artifacts/master/browse?job=build
-
-For SakuraTree version 0.4.1:
-
-https://files.kitsunemimi.moe/docs/SakuraTree-Documentation_0_4_1.pdf
-
+---
 
 ## Build 
 
